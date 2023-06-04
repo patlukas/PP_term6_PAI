@@ -1,0 +1,146 @@
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #666;
+}
+
+p {
+  color: #555;
+  margin: 5px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resource-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+  width: 300px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-back {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-back:hover {
+  background-color: #555;
+}
+
+.btn_edit_del {
+  padding: 10px 20px;
+  background-color: #030;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn_edit_del:hover {
+  background-color: #050;
+}
+
+.btn_add {
+  padding: 10px 20px;
+  background-color: #330;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn_add:hover {
+  background-color: #550;
+}
+
+.btn_zas {
+  padding: 10px 20px;
+  background-color: #500;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn_zas:hover {
+  background-color: #800;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-back {
+  padding: 5px 10px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.resource-list {
+  margin-top: 20px;
+}
+
+#error-message {
+  color: red;
+}
+
+input[type="checkbox"] {
+  margin-top: 5px;
+}
